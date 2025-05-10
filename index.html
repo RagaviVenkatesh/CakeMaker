@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Build Your Cake</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>🎂 Build Your Cake</h1>
+  <div class="buttons">
+    <button onclick="addLayer('chocolate')">🍫 Chocolate ($5)</button>
+    <button onclick="addLayer('strawberry')">🍓 Strawberry ($4)</button>
+    <button onclick="addLayer('vanilla')">🍦 Vanilla ($3)</button>
+    <button onclick="addLayer('blueberry')">🫐 Blueberry ($6)</button>
+    <button onclick="addLayer('lemon')">🍋 Lemon ($4)</button>
+    <button onclick="resetCake()">🔄 Reset</button>
+  </div>
+  
+  <div class="cake-container">
+    <div class="cake" id="cake"></div>
+  </div>
+  <div id="price"></div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
